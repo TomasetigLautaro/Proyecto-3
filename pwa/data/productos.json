@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"marca": "SAMSUNG",
+		"imagen": "img/SAMSUNG-A12-4GB-64GB.jpg",
+		"precio": "36000",
+		"detalles": ["4 GB RAM", "COLOR BLANCO", "64 GB Almacenamiento"]
+	},
+	{
+		"id": 2,
+		"marca": "SAMSUNG",
+		"imagen": "img/s21.jpg",
+		"precio": "111000",
+		"detalles": ["6 GB RAM", "COLOR NEGRO", "128 GB Almacenamiento"]
+	},
+	{
+		"id": 3,
+		"marca": "SAMSUNG",
+		"imagen": "img/A02.jpg",
+		"precio": "25000",
+		"detalles": ["3 GB RAM", "COLOR NEGRO", "32 GB Almacenamiento"]
+	},
+	{
+		"id": 4,
+		"marca": "APPLE",
+		"imagen": "img/iphone11.jpg",
+		"precio": "171000",
+		"detalles": ["4 GB RAM", "COLOR ROJO", "64 GB Almacenamiento"]
+	},
+	{
+		"id": 5,
+		"marca": "APPLE",
+		"imagen": "img/iphone13.jpg",
+		"precio": "340000",
+		"detalles": ["4 GB RAM", "COLOR BLANCO", "128 GB Almacenamiento"]
+	},
+	{
+		"id": 6,
+		"marca": "APPLE",
+		"imagen": "img/iphone12.jpg",
+		"precio": "220000",
+		"detalles": ["4 GB RAM", "COLOR BLANCO", "128 GB Almacenamiento"]
+	},
+	{
+		"id": 7,
+		"marca": "XIAOMI",
+		"imagen": "img/MI-11-ULTRA.5.jpg",
+		"precio": "127000",
+		"detalles": ["8 GB RAM", "COLOR BLANCO", "256 GB Almacenamiento"]
+	},
+	{
+		"id": 8,
+		"marca": "XIAOMI",
+		"imagen": "img/xiaomiredminote9.jpg",
+		"precio": "53000",
+		"detalles": ["4 GB RAM", "COLOR GRIS", "128 GB Almacenamiento"]
+	},
+	{
+		"id": 9,
+		"marca": "XIAOMI",
+		"imagen": "img/NOTE-10-PRO.2.jpg",
+		"precio": "79000",
+		"detalles": ["6 GB RAM", "COLOR NARANJA", "128 GB Almacenamiento"]
+	}
+]

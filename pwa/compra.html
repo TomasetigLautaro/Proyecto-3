@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="iconos/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="iconos/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="iconos/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="iconos/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="iconos/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="iconos/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="iconos/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="iconos/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="iconos/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="iconos/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="iconos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="iconos/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="iconos/favicon-16x16.png">
+
+
+    <link rel="manifest" href="/manifest.json">
+    
+    
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="iconos/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Parcial N2 Tomasetig Lautaro</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo1_Mesa de trabajo 1.png" alt="" class="d-inline-block align-text-top">
+                
+              </a>
+            </div>
+          </nav>
+    </header>
+
+    <br>
+
+    <main>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col">
+                    <h2 class="d-flex justify-content-center mb-3">Realizar Compra</h2>
+                    <form id="procesar-pago">
+                        
+                       
+
+                        <div id="carrito" class="form-group table-responsive" >
+                            <table class="form-group table" id="lista-compra" >
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Imagen</th>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Sub Total</th>
+                                        <th scope="col">Eliminar</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody >
+
+                                </tbody>
+                                <tr>
+                                
+                                    </th>
+                                   
+                                </tr>
+                                
+                                   
+                                </tr>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-right">Total:</th>
+                                    <th scope="col">
+                                        <input id="total" name="monto" class="font-weight-bold border-0" readonly style="background-color: white;"></input>
+                                    </th>
+                                  
+                                </tr>
+
+                            </table>
+                        </div>
+
+                       
+
+                        <div class="row justify-content-between">
+                            <div class="col-md-4 mb-2">
+                                <a href="index.html" class="btn btn-info btn-block">Seguir comprando</a>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <input type="submit" class="btn btn-success btn-block" id="procesar-compra" value="Realizar compra">
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+
+    </div>
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/compra.js"></script>
+    
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+  
+  const el = document.createElement('pwa-update');
+  document.body.appendChild(el);
+      </script>
+      
+
+</body>
+
+</html>

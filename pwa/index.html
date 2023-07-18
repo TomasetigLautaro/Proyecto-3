@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="iconos/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="iconos/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="iconos/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="iconos/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="iconos/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="iconos/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="iconos/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="iconos/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="iconos/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="iconos/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="iconos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="iconos/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="iconos/favicon-16x16.png">
+
+
+    <link rel="manifest" href="/manifest.json">
+    
+    
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="iconos/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <title>Parcial N2 Tomasetig Lautaro</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo1_Mesa de trabajo 1.png" alt="" class="d-inline-block align-text-top">
+                
+              </a>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/iphonead.jpg" class="d-block w-100" alt="propaganda de Iphone">
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 class="display-4 mt-4">Gracias por elegirnos!</h1>
+            <p class="lead">De parte de nuestro equipo, te damos las gracias por elegir nuestro sistema</p>
+        </div>
+
+
+        
+          <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 class="display-4 mt-4">Compra rápida, fácil y cómoda.</h1>
+            <p class="lead">Gracias a nuestro sistema de compra fácil de comprender, nuestros clientes disfrutan de una buena experiencia al comprar celulares</p>
+        </div>  
+        
+        <div class="container text-center">
+            <div class="row">
+              <div class="col order-last">
+                <h5>Espera tu pedido</h5>
+                <p>Luego de pagar, espera tu pedido en la comodidad de tu casa</p>
+              </div>
+              <div class="col">
+                <h5>Procesa tu compra</h5>
+                <p>Clickea sobre editar carrito para modificar las cantidades y ver el monto total a pagar.</p>
+              </div>
+              <div class="col order-first">
+                <h5>Elegí tu producto</h5>
+                <p>Elegí desde nuestro catálogo, el celular que desees y hacé click en agregar al carrito para listar tu producto.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 class="display-4 mt-4">Lista de Productos</h1>
+            <p class="lead">Selecciona uno de nuestros productos y agreguelo al carrito.</p>
+        </div>
+
+
+        <div class="container" id="lista-productos">
+    
+        </div>
+       
+       
+       
+        <div id="carrito" >
+            <tr>
+                <th colspan="4" scope="col" class="text-right">Total:</th>
+                <th scope="col">
+                    <input id="total" name="monto" class="font-weight-bold border-0" readonly style="background-color: white;"></input>
+                </th>
+              
+            </tr>
+            <table id="lista-carrito" class="table">
+                <thead>
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                
+            </table>
+    
+            <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+            <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Editar Carrito</a>
+        </div>
+    </main>
+    
+   
+    
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+    
+    <script type="module">
+      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+    </script>
+    
+    
+
+</body>
+
+</html>
